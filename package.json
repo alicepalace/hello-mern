@@ -1,0 +1,26 @@
+{
+  "name": "hello-mern",
+  "version": "1.0.0",
+  "description": "Hello Mern!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alicepalace/hello-mern.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alicepalace/hello-mern/issues"
+  },
+  "homepage": "https://github.com/alicepalace/hello-mern#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
