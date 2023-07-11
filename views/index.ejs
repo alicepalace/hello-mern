@@ -2,6 +2,45 @@
 <html lang="en">
 <%- include('./partials/head.ejs') %>
 <body>
-    <%- include('./partials/nav.ejs') %>
+    <%- include('./partials/header.ejs') %>
+
+    <section class="banner">
+        <img src="funny-dumbells.png" alt="girl with dumbells">
+        <div class="site-title">
+            <a href="/"><h1>The Sickly E-girl's fitness site</h1></a>
+            <p>a fit baby was birthed in this site</p>
+        </div>
+    </section>
+
+    <main>
+        <article>
+            <h2>Site currently being birthed</h2>
+
+            <p class="coming-soon">Coming soon: Create an account using a username and password.</p>
+
+            <p class="coming-soon">Coming soon: database of exercises</p>
+
+            <p>Each user will have their own list of exercises. They will be able to choose exercises from a database.
+                Images? Video? Can users make up their own exercises? Reminders to stay on your workout routine?
+            </p>
+        
+            <p>What should home page look like? Home page should be very welcoming and not intimidating. A smooth transition to work mode.
+            </p>
+        </article>
+
+        <ul class="images">
+            <li><img src="/glute-bridge.png" alt="glute bridge"></li>
+            <li><img src="/sexy-girl1.png" alt="plank"></li>
+        </ul>
+    </main>
+    <section class="join">
+        <h2>Join Today!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque beatae ex vitae</p>
+        <form action="">
+            <input type="email" name="email" placeholder="Typer email & hit enter" required>
+        </form>
+    </section>
+
+    <%- include('./partials/footer.ejs') %>
 </body>
 </html>
