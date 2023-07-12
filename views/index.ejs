@@ -4,15 +4,15 @@
 <body>
     <%- include('./partials/header.ejs') %>
 
-    <section class="banner">
-        <img src="funny-dumbells.png" alt="girl with dumbells">
-        <div class="site-title">
-            <a href="/"><h1>The Sickly E-girl's fitness site</h1></a>
-            <p>a fit baby was birthed in this site</p>
-        </div>
-    </section>
+    <main class="container">
 
-    <main>
+        <section class="banner">
+            <img src="funny-dumbells.png" alt="girl with dumbells">
+            <div class="site-title">
+                <a href="/"><h1>The Sickly E-girl's fitness site</h1></a>
+                <p>a fit baby was birthed in this site</p>
+            </div>
+        </section>
         <article>
             <h2>Site currently being birthed</h2>
 
@@ -28,18 +28,20 @@
             </p>
         </article>
 
-        <ul class="images">
-            <li><img src="/glute-bridge.png" alt="glute bridge"></li>
-            <li><img src="/sexy-girl1.png" alt="plank"></li>
-        </ul>
+        <aside>
+            <img src="/glute-bridge.png" alt="glute bridge"></li>
+            <img src="/sexy-girl1.png" alt="plank"></li>
+        </aside>
+
+        <section class="join">
+            <h2>Join Today!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque beatae ex vitae</p>
+            <form action="">
+                <input type="email" name="email" placeholder="Typer email & hit enter" required>
+            </form>
+        </section>
     </main>
-    <section class="join">
-        <h2>Join Today!</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque beatae ex vitae</p>
-        <form action="">
-            <input type="email" name="email" placeholder="Typer email & hit enter" required>
-        </form>
-    </section>
+
 
     <%- include('./partials/footer.ejs') %>
 </body>
