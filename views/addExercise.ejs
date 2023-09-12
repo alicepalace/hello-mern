@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head.ejs') %>
+<body>
+    <%- include('./partials/header.ejs') %>
+
+    <main>
+        <section>
+            <h1>Enter the exercise:</h1>
+            <form action="/submit" method="post">
+                <label for="exerciseName">Exercise name:</label>
+                <input type="text" id="exerciseName" name="exerciseName" required><br><br>
+                
+                <label for="primeMover">Prime mover:</label>
+                <input type="text" id="primeMover" name="primeMover" required><br><br>
+
+                <label for="agonists">Agonists:</label>
+                <input type="text" id="agonists" name="agonists" required><br><br>
+
+                <label for="antagonists">Antagonists:</label>
+                <input type="text" id="antagonists" name="antagonists" required><br><br>
+                
+                <label for="description">Exercise Description:</label><br>
+                <textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+
+                <!-- Submit button using input -->
+                <input type="submit" value="Submit">
+
+            </form>
+        </section>
+
+        <section>
+            
+        </section>
+    </main>
+    <%- include('./partials/footer.ejs') %>
+</body>
+</html>
